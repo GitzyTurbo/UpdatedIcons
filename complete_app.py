@@ -193,14 +193,14 @@ def create_sample_data():
             'url': 'https://www.amazon.com',
             'logo': '📦'
         },
-        {
-            'name': 'Adobe Creative Cloud',
+         {
+            'name': 'Quill Bot',
             'cost': 19.99,
             'category': 'Productivity',
             'billing_day': 15,
-            'usage': [5.8, 5.7, 5.9, 5.7],  # stable usage
-            'url': 'https://www.adobe.com',
-            'logo': '🎨'
+            'usage': [5.8, 5.7, 5.9, 5.7],
+            'url': 'https://www.quillbot.com',
+            'logo': '🤖'
         },
         {
             'name': 'Disney+',
