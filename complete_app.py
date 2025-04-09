@@ -1041,7 +1041,7 @@ def render_calendar():
                 if day_counter in billing_days:
                     for service in billing_days[day_counter]:
                         cols[i].markdown(
-                            f"<div style='background-color: #222; padding: 5px; margin-top: 2px; border-radius: 3px;'>"
+                            f"<div style='background-color: #0D5389; color: white; padding: 5px; margin-top: 2px; border-radius: 3px;'>"
                             f"{service['logo']} {service['name']}<br/>"
                             f"<b>${service['cost']:.2f}</b></div>", 
                             unsafe_allow_html=True
