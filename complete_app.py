@@ -1033,7 +1033,7 @@ def render_calendar():
             else:
                 # Day cell
                 is_today = day_counter == now.day and selected_month_num == now.month
-                day_style = "background-color: #0D5389; padding: 5px; border-radius: 5px;" if is_today else ""
+                day_style = "background-color: #E0E0E0; padding: 5px; border-radius: 5px;" if is_today else ""
                 
                 cols[i].markdown(f"<div style='{day_style}'>{day_counter}</div>", unsafe_allow_html=True)
                 
@@ -1041,7 +1041,7 @@ def render_calendar():
                 if day_counter in billing_days:
                     for service in billing_days[day_counter]:
                         cols[i].markdown(
-                            f"<div style='background-color: #0D5389; color: white; padding: 5px; margin-top: 2px; border-radius: 3px;'>"
+                            f"<div style='background-color: #87CEEB; color: white; padding: 5px; margin-top: 2px; border-radius: 3px;'>"
                             f"{service['logo']} {service['name']}<br/>"
                             f"<b>${service['cost']:.2f}</b></div>", 
                             unsafe_allow_html=True
