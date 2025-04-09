@@ -140,8 +140,8 @@ def create_sample_data():
     """Create sample data for student profile, subscriptions, and usage"""
     # Student profile
     profile = {
-        'name': 'Alex Johnson',
-        'email': 'alex.johnson@university.edu',
+        'name': 'Liam O'Dogherty',
+        'email': 'liam.odoherty5@mail.dcu.ie',
         'budget': 75.00,
         'avatar': 'https://avatars.dicebear.com/api/avataaars/alexj.svg'
     }
